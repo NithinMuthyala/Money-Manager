@@ -1,0 +1,89 @@
+/* Write your CSS here */
+.cards-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}
+@media screen and (min-width: 768px) {
+  .cards-container {
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+  }
+}
+.balance-card {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+  background-color: #ecfccb;
+  border: 2px solid #84cc16;
+  border-radius: 10px;
+  padding: 15px;
+
+  margin-bottom: 13px;
+}
+@media screen and (min-width: 768px) {
+  .balance-card {
+    width: 30%;
+  }
+}
+.img-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.image {
+  height: 75px;
+  width: 75px;
+}
+.balance-text-amount-container {
+  padding-left: 14px;
+}
+.balance-text {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 16px;
+  font-weight: 500;
+}
+.balance-amount {
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 18px;
+  font-weight: bold;
+}
+.income-card {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  background-color: #cffafe;
+  border: 2px solid #06b6d4;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 13px;
+}
+@media screen and (min-width: 768px) {
+  .income-card {
+    width: 30%;
+    margin-right: 15px;
+    margin-left: 15px;
+  }
+}
+.expense-card {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+  background-color: #ede9fe;
+  border: 2px solid #7c3aed;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 13px;
+}
+@media screen and (min-width: 768px) {
+  .expense-card {
+    width: 30%;
+  }
+}

@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.transaction-history-item {
+  display: flex;
+  flex-direction: row;
+  border-bottom: 1px solid #334155;
+}
+.category {
+  width: 25%;
+  text-align: center;
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+}
+.btn-container {
+  width: 25%;
+  text-align: center;
+  align-self: center;
+}
+img {
+  height: 30px;
+  width: 30px;
+  margin-top: 3px;
+}
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
